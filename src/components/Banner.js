@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Banner.css";
-// import "../Index.css";
+// import "../../src/index.css";
 // import "../App.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 // import $ from "jquery";
@@ -48,19 +48,19 @@ class Banner extends Component {
       return instances;
     }
 
-    function destroyCarousel(instances) {
-      if (!window || !document) return null;
+    // function destroyCarousel(instances) {
+    //   if (!window || !document) return null;
 
-      if (Array.isArray(instances)) {
-        for (let i = 0; i < instances.length; ++i) {
-          removeAutoScroll(instances[i]);
-          instances[i].destroy();
-        }
-      } else {
-        removeAutoScroll(instances);
-        instances.destroy();
-      }
-    }
+    //   if (Array.isArray(instances)) {
+    //     for (let i = 0; i < instances.length; ++i) {
+    //       removeAutoScroll(instances[i]);
+    //       instances[i].destroy();
+    //     }
+    //   } else {
+    //     removeAutoScroll(instances);
+    //     instances.destroy();
+    //   }
+    // }
 
     function addAutoScroll(instance) {
       if (!instance.options.autoScroll) return;
@@ -83,20 +83,20 @@ class Banner extends Component {
       });
     }
 
-    function removeAutoScroll(instance) {
-      if (instance.autoScrollIntervalId) {
-        window.clearInterval(instance.autoScrollIntervalId);
-        instance.autoScrollIntervalId = undefined;
-      }
+    // function removeAutoScroll(instance) {
+    //   if (instance.autoScrollIntervalId) {
+    //     window.clearInterval(instance.autoScrollIntervalId);
+    //     instance.autoScrollIntervalId = undefined;
+    //   }
 
-      instance.el.removeEventListener("mouseover", carouselMouseOverTouchStart);
-      instance.el.removeEventListener("mouseleave", carouselMouseOutTouchEnd);
-      instance.el.removeEventListener(
-        "touchstart",
-        carouselMouseOverTouchStart
-      );
-      instance.el.removeEventListener("touchend", carouselMouseOutTouchEnd);
-    }
+    //   instance.el.removeEventListener("mouseover", carouselMouseOverTouchStart);
+    //   instance.el.removeEventListener("mouseleave", carouselMouseOutTouchEnd);
+    //   instance.el.removeEventListener(
+    //     "touchstart",
+    //     carouselMouseOverTouchStart
+    //   );
+    //   instance.el.removeEventListener("touchend", carouselMouseOutTouchEnd);
+    // }
 
     function carouselMouseOverTouchStart() {
       const instance = M.Carousel.getInstance(this);
@@ -145,6 +145,7 @@ class Banner extends Component {
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
                       </p>
+                      <div className="btn hidden-xs">buy car</div>
                     </div>
                   </div>
                   <div className="col s12 m6">
@@ -161,6 +162,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
+                    <div className="btn ">buy car</div>
                   </div>
                 </div>
               </div>
@@ -173,6 +175,7 @@ class Banner extends Component {
                         Here is what customers and vendors are saying about us,
                         you can share your stories with us too.
                       </p>
+                      <div className="btn hidden-xs">buy car</div>
                     </div>
                   </div>
                   <div className="col s12 m6">
@@ -189,6 +192,7 @@ class Banner extends Component {
                       Here is what customers and vendors are saying about us,
                       you can share your stories with us too.
                     </p>
+                    <div className="btn">buy car</div>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,12 @@
+nav.trans-nav {
+  position: fixed;
+  /* background-color: transparent; */
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+  height: 64px;
+  /* box-shadow: none; */
+}
+
 .nav-login-group {
   display: flex;
 }
@@ -17,8 +26,8 @@ nav {
   justify-content: space-between;
 }
 
-@media (min-width: 993px) {
+/* @media (min-width: 993px) {
   .container {
     width: 80% !important;
   }
-}
+} */
