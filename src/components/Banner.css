@@ -1,0 +1,29 @@
+/* .main-text-container {
+  color: var(--mainBlack) !important;
+}
+
+.main-text-container h1 {
+  font-size: 2rem !important;
+} */
+
+section.home {
+  position: relative !important;
+  height: 80vh;
+  min-height: 600px;
+  padding-top: 0;
+}
+
+.carousel.full-height {
+  height: 100% !important ;
+}
+div.carousel-item {
+  padding-top: 12%;
+  /* background-color: violet; */
+}
+.main-txt-container {
+  position: relative;
+  top: 30px;
+}
+.main-txt-container h1 {
+  font-size: 48px;
+}

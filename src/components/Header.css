@@ -1,0 +1,6 @@
+section.home {
+  position: relative !important;
+  height: 80vh;
+  min-height: 600px;
+  padding-top: 0;
+}
