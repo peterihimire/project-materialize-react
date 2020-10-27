@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeAbout.css";
-import pix from "../assets/undraw-1.svg";
+import pix from "../assets/undraw-2.svg";
 
 const HomeAbout = () => {
   return (

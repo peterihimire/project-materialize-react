@@ -33,82 +33,47 @@
   overflow: hidden; */
 }
 
+/* Lato Font */
 @font-face {
   font-family: "lato";
   src: local("lato"), url("./fonts/lato/Lato-Regular.ttf") format("truetype");
 }
 @font-face {
+  font-family: "lato-light";
+  src: local("lato"), url("./fonts/lato/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "trueno-hairline";
+  src: local("lato"), url("./fonts/lato/Lato-Hairline.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-semibold";
+  src: local("lato"), url("./fonts/lato/Lato-Semibold.ttf") format("truetype");
+}
+@font-face {
   font-family: "lato-bold";
   src: local("lato"), url("./fonts/lato/Lato-Bold.ttf") format("truetype");
 }
-@font-face {
-  font-family: "roboto-bold";
-  src: local("roboto"), url("./fonts/roboto/Roboto-Bold.ttf") format("truetype");
-}
+
+/* Roboto Font */
 @font-face {
   font-family: "roboto";
   src: local("roboto"),
     url("./fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
-/* @font-face {
-  font-family: "lato-light";
-  src: url("../fonts/lato/Lato-Light.ttf");
-}
-@font-face {
-  font-family: "trueno-hairline";
-  src: url("../fonts/lato/Lato-Hairline.ttf");
-}
-@font-face {
-  font-family: "lato-semibold";
-  src: url("../fonts/lato/Lato-Semibold.ttf");
-}
-@font-face {
-  font-family: "lato-bold";
-  src: url("../fonts/lato/Lato-Bold.ttf");
-}
-
-@font-face {
-  font-family: "roboto";
-  src: url("../fonts/roboto/Roboto-Regular.ttf");
-}
 @font-face {
   font-family: "roboto-light";
-  src: url("../fonts/roboto/Roboto-Light.ttf");
+  src: local("roboto"),
+    url("./fonts/roboto/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "roboto-thin";
-  src: url("../fonts/roboto/Roboto-Thin.ttf");
+  src: local("roboto"), url("./fonts/roboto/Roboto-Thin.ttf") format("truetype");
 }
 @font-face {
   font-family: "roboto-bold";
-  src: url("../fonts/roboto/Roboto-Bold.ttf");
-} */
-
-/* Inter font  */
-/* @font-face {
-  font-family: "inter";
-  src: url("../fonts/inter/Inter-Regular.ttf");
+  src: local("roboto"), url("./fonts/roboto/Roboto-Bold.ttf") format("truetype");
 }
-@font-face {
-  font-family: "inter-light";
-  src: url("../fonts/inter/Inter-Light-BETA.ttf");
-}
-@font-face {
-  font-family: "inter-extralight";
-  src: url("../fonts/inter/Inter-ExtraLight-BETA.ttf");
-}
-@font-face {
-  font-family: "inter-semibold";
-  src: url("../fonts/inter/Inter-SemiBold.ttf");
-}
-@font-face {
-  font-family: "inter-bold";
-  src: url("../fonts/inter/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: "inter-extrabold";
-  src: url("../fonts/inter/Inter-ExtraBold.ttf");
-} */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -118,7 +83,7 @@
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--sec-color);
+  background: var(--pry-color);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {

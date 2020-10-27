@@ -1,0 +1,22 @@
+.buycar{
+  padding: 3rem 0rem;
+  background-color: var(--pry-color) !important;
+  color: var(--mainWhite);
+}
+
+.buycar-header h3 {
+  display: inline-block;
+  padding: 0 0 1rem 0;
+  position: relative;
+  font-size: 35px;
+}
+
+.buycar-header h3::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid var(--sec-color);
+}
