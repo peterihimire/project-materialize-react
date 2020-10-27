@@ -138,7 +138,7 @@ class Banner extends Component {
             <div className="carousel carousel-slider full-height">
               <div className="carousel-item">
                 <div className="col s12 pad0 center-xs">
-                  <div className="col s12 m6">
+                  <div className="col s12 m5 ">
                     <div className="main-text-container">
                       <h1>Amazing Experiences from Our Wonderful Customers</h1>
                       <p className="hidden-xs">
@@ -148,7 +148,7 @@ class Banner extends Component {
                       <div className="btn hidden-xs">buy car</div>
                     </div>
                   </div>
-                  <div className="col s12 m6">
+                  <div className="col s12 m5 offset-m2">
                     <div className="rel right-align">
                       <img
                         src={bannerTwo}
@@ -168,7 +168,7 @@ class Banner extends Component {
               </div>
               <div className="carousel-item">
                 <div className="col s12 pad0 center-xs">
-                  <div className="col s12 m6">
+                  <div className="col s12 m5">
                     <div className="main-text-container">
                       <h1>Amazing Experiences from Our Wonderful Customers</h1>
                       <p className="hidden-xs">
@@ -178,7 +178,7 @@ class Banner extends Component {
                       <div className="btn hidden-xs">buy car</div>
                     </div>
                   </div>
-                  <div className="col s12 m6">
+                  <div className="col s12 m5 offset-m2">
                     <div className="rel right-align">
                       <img
                         src={bannerOne}

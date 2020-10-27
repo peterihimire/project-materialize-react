@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import Header from "./components/Header";
+import HomeAbout from "./components/HomeAbout";
 import Banner from "./components/Banner";
 
 class App extends Component {
@@ -10,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Banner />
+        <HomeAbout />
       </div>
     );
   }

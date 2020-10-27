@@ -27,7 +27,10 @@ div.carousel-item {
 }
 .main-text-container h1 {
   font-size: 48px;
+  margin: .8rem 0 1.68rem 0;
+  color: var(--pry-color);
 }
+
 
 @media (max-width: 992px) {
   .home .carousel-item {

@@ -35,23 +35,26 @@ class Navbar extends Component {
               <ul className="hide-on-med-and-down nav-center nav-links">
                 <li className="nav-item">
                   <a className="black-text" href="about.html">
-                    home
+                    Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/">about</a>
+                  <a href="/">About</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/">faq</a>
+                  <a href="/">Sponsor</a>
+                </li>
+                <li className="nav-item">
+                  <a href="/">FAQs</a>
                 </li>
               </ul>
 
               <ul className="hide-on-med-and-down right nav-links">
                 <li className="nav-item nav-login-group">
-                  <a href="/">log in</a>
+                  <a href="/">Log In</a>
                   <span>
                     <a href="/" className="btn nav-btn white-text">
-                      sign up
+                      Sign Up
                     </a>
                   </span>
                 </li>

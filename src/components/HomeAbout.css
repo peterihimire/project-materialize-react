@@ -1,0 +1,27 @@
+.home-about-header h3 {
+  display: inline-block;
+  padding: 0 0 1rem 0;
+  position: relative;
+  color: var(--pry-color);
+  font-size: 35px;
+}
+.home-about-header h3 span {
+  background-color: var(--sec-color);
+  color: var(--mainWhite);
+  padding: 0 .2rem;
+  border-radius: .5rem;
+}
+.home-about-header p{
+  font-weight: bold;
+  color: var(--pry-color);
+  font-family: roboto;
+}
+.home-about-header h3::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 5px solid var(--sec-color);
+}
