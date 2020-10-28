@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import HomeAbout from "./components/HomeAbout";
 import Banner from "./components/Banner";
 import BuyCar from "./components/BuyCar";
+import SeeCar from "./components/SeeCar";
+
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
         <Banner />
         <HomeAbout />
         <BuyCar />
+        <SeeCar />
       </div>
     );
   }
