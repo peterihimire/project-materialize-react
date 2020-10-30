@@ -38,7 +38,7 @@
   font-family: "lato";
   src: local("lato"), url("./fonts/lato/Lato-Regular.ttf") format("truetype");
 }
-@font-face {
+/* @font-face {
   font-family: "lato-light";
   src: local("lato"), url("./fonts/lato/Lato-Light.ttf") format("truetype");
 }
@@ -53,10 +53,10 @@
 @font-face {
   font-family: "lato-bold";
   src: local("lato"), url("./fonts/lato/Lato-Bold.ttf") format("truetype");
-}
+} */
 
 /* Roboto Font */
-@font-face {
+/* @font-face {
   font-family: "roboto";
   src: local("roboto"),
     url("./fonts/roboto/Roboto-Regular.ttf") format("truetype");
@@ -69,7 +69,7 @@
 @font-face {
   font-family: "roboto-thin";
   src: local("roboto"), url("./fonts/roboto/Roboto-Thin.ttf") format("truetype");
-}
+} */
 @font-face {
   font-family: "roboto-bold";
   src: local("roboto"), url("./fonts/roboto/Roboto-Bold.ttf") format("truetype");

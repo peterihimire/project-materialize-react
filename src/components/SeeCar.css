@@ -45,3 +45,6 @@ a.middle-indicator-text {
   color: var(--pry-color);
   background-color: blueviolet;
 }
+/* .carousel-fixed-item {
+  position: unset;
+} */
