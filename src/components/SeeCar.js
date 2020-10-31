@@ -96,7 +96,7 @@ class SeeCar extends Component {
                 <div className="cars-options-wrapper">
                   <div className="car-option-block">
                     <img
-                      src="img/Honda Accord/2009.jpg"
+                      src={image}
                       alt="car"
                       className="car-block full-width"
                     />
