@@ -48,3 +48,56 @@ a.middle-indicator-text {
 /* .carousel-fixed-item {
   position: unset;
 } */
+
+#car-options {
+  position: relative;
+  padding: 40px 0;
+}
+/* section#car-options:before {
+  border-radius: 100% 100% 0 0;
+  position: absolute;
+  background: white;
+  bottom: -20px;
+  right: -200px;
+  left: -200px;
+  content: '';
+  top: -70px;
+  z-index: 0;
+  height: 250px;
+} */
+
+#car-options .carousel.carousel-slider .carousel-item {
+  padding-top: 0;
+}
+#car-options .carousel.carousel-slider {
+  min-height: 550px;
+}
+.cars-options-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+.slider-navigation {
+  width: 100%;
+  margin: 20px 0;
+}
+.slider-nav-btn {
+  background-color: var(--pry-color);
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+.slider-nav-btn img {
+  width: 20px;
+}
+@media (max-width: 992px) {
+  #car-options .carousel.carousel-slider {
+    min-height: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .cars-options-wrapper {
+    grid-template-columns: 100%;
+  }
+}
