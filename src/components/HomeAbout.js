@@ -18,7 +18,7 @@ const HomeAbout = () => {
                     <p>Our mission is simple</p>
                   </div>
                   <div className="home-about-text-content">
-                    <p class="">
+                    <p className="">
                       I had the best experience shopping with vasiti. Usability
                       of the website was great, very good customer service, an
                       all round great experience. I would definately be coming

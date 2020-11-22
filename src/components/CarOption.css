@@ -91,6 +91,10 @@ a.middle-indicator-text {
 .slider-nav-btn img {
   width: 20px;
 }
+.carousel-btn {
+  background: var(--pry-color) !important;
+  color: red !important;
+}
 @media (max-width: 992px) {
   #car-options .carousel.carousel-slider {
     min-height: 400px;

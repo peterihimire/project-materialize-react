@@ -23,7 +23,7 @@ class BuyCar extends Component {
                       <h3>Buy A Car</h3>
                     </div>
                     <div className="buycar-text-content">
-                      <p class="">
+                      <p className="">
                         I had the best experience shopping with vasiti.
                         Usability of the website was great, very good customer
                       </p>
@@ -41,14 +41,16 @@ class BuyCar extends Component {
                       </p>
                     </div>
                     <div>
-                      <a href='/' className="btn">Buy a car </a>
+                      <a href="/" className="btn">
+                        Buy a car{" "}
+                      </a>
                     </div>
                   </div>
                   <div className="visible-xs">
-                  <div className="buycar-image-container">
-                    <img src={image} alt="person" width="100%" />
+                    <div className="buycar-image-container">
+                      <img src={image} alt="person" width="100%" />
+                    </div>
                   </div>
-                </div>
                 </div>
               </div>
             </div>
